@@ -1,13 +1,17 @@
 .input-dice
 {
   position: absolute;
-  top: 25%;
+  top: 0%;
+  width: 20%;
+  height: 50%;
   text-align: center;
 }
 
 .input-dice input
 {
   margin: 60px;
+  position: relative;
+  top: 30%;
   width: 40%;
   height: 25px;
   padding-left: 20px;
@@ -16,31 +20,50 @@
   border-radius: 30px;
 }
 
+.input-dice input:hover
+{
+  border:2px solid rgb(2, 30, 37);
+}
+
 .left-dice
 {
-  left: 20%;
+  left: 5%;
 }
 
 .right-dice
 {
-  right: 20%;
+  right: 5%;
 }
 
-.dice
+.dices
 {
-  width: 55%;
+  position: relative;
+  top: 30%;
+  width: 180px;
 }
 
 
 #btn-div
 {
   position: absolute;
-  top: 65%;
+  top: 50%;
   text-align: center;
   width: 100%;
 }
 
 #compete-btn
 {
+  padding: 5px 0;
   margin: 5% auto;
+}
+
+#result-div
+{
+  width: 50%;
+  position: relative;
+  top: 20%;
+  font-size: 6rem;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 2px 2px #ffffffd0;
 }

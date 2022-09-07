@@ -21,7 +21,7 @@
 }
 
 
-#dice
+.dice
 {
   position: absolute;
   top: 35%;
@@ -72,7 +72,7 @@
 
 
 
-#dice {
+.dice {
     width: 200px;
 }
 
