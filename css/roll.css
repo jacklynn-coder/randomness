@@ -56,13 +56,13 @@
 {
   background-color: rgba(64, 81, 78,0.45);
   position: absolute;
-  padding: 30px;
+  padding: 4%;
   top: 10%;
-  right: 20%;
+  left: 30%;
   border-radius: 30px;
-  width: 50%;
+  width: 40%;
   font-size: 25px;
-font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
   color: White;
   line-height: 2rem;
   font-weight: bold;
@@ -90,3 +90,34 @@ font-family: 'Roboto Mono', monospace;
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
 }
+
+@media screen and (min-width: 320px) and (max-width: 1099px) {
+  #home-link
+  {
+    top: 4%;
+    left: 0%;
+    background-color: none;
+    border:none;
+  }
+
+  #info-text
+  {
+    width: 70%;
+    border-radius: 50px;
+    margin: 0 auto;
+    left: 10%;
+    text-align: left;
+    right: auto;
+    background-color: rgba(64, 81, 78, 0.677);
+  }
+
+  #dice
+  {
+    margin: 15%;
+    width: 15%;
+  }
+
+
+
+}
+

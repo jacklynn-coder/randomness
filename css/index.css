@@ -10,7 +10,7 @@ body
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
-  padding: 0
+  padding: 0;
   height: 100%;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -61,7 +61,7 @@ a
   display: flex;
   position: absolute;
   bottom: 0;
-  left: 25%;
+  left: 20%;
   margin-bottom: 5%;
 }
 
@@ -112,17 +112,18 @@ a
   color: white;
   font-size: 45px;
   position: absolute;
+  width: 60%;
   top: 35%;
-  right: 25%;
+  left: 25%;
 }
 
 #author
 {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   position: absolute;
-  top: 45%;
-  right: 25%;
+  top: 53%;
+  left: 25%;
 }
 
 
@@ -147,4 +148,118 @@ a
   bottom: 20px;
   right: 15px;
   z-index: 1;
+}
+
+
+@media screen and (min-width: 1100px) and (max-width: 1700px) {
+
+  .btns
+  {
+    margin-bottom: 1%;
+  }
+
+  .btn
+  {
+    width: 10rem;
+  }
+
+
+
+  #bot-left
+  {
+    width: 200px;
+  }
+
+  #bot-right
+  {
+    width: 200px;
+  }
+
+  #dice-gp
+  {
+    width: 120px;
+  }
+
+  #quote
+  {
+    font-size: 45px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+  }
+
+  #author
+  {
+    font-size: 20px;
+    position: absolute;
+    top: 52%;
+    left: 10%;
+  }
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 1099px) {
+
+  .btns
+  {
+    position: absolute;
+    top: 35%;
+    margin-top: 20px;
+    left: 10%;
+  }
+
+  .btn
+  {
+    width: 8rem;
+    margin: 25px 50px 0 0px;
+    padding-top: 15px;
+    font-size: 1rem;
+  }
+
+
+
+  #bot-left
+  {
+    width: 20%;
+  }
+
+  #bot-right
+  {
+    width: 20%;
+  }
+
+  #dice-gp
+  {
+    width: 12%;
+  }
+
+  #subtitle
+  {
+    font-size: 20px;
+  }
+
+  #subtitle b
+  {
+    font-size: 30px;
+  }
+
+  #quote
+  {
+    width: 60%;
+    font-size: 2.2rem;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+  }
+
+  #author
+  {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 31%;
+    left: 10%;
+    margin-top: 50px;
+  }
+
 }
