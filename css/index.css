@@ -1,0 +1,150 @@
+/* Element Selection */
+
+html {
+    height: 100%;
+}
+
+body
+{
+  background-image: linear-gradient(#1EB9BE, #004548);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+
+a
+{
+  text-decoration: none;
+  color: white;
+}
+
+/* Class Selection */
+
+.copy-right
+{
+  position: absolute;
+  /* border: 3px solid yellow; */
+  width: 100%;
+  bottom:0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.copy-right p{
+  font-size: 12px;
+  /* border: 1px solid red; */
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.copy-right a
+{
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.copy-right a:hover
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.btns
+{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  margin-bottom: 5%;
+}
+
+.btn
+{
+  border:1px solid rgba(25, 93, 96, 0.6);
+  border-radius: 50px;
+  display: block;
+  width: 250px;
+  height: 35px;
+  background-color: #FFFFFF;
+  color: #195D60;
+  text-align: center;
+  padding-top: 10px;
+  margin: 80px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.btn:hover
+{
+    background-color: #195D60;
+    color: white;
+    border:1px solid rgba(255,255,255, 0.6);
+}
+
+
+/* ID Selection */
+
+#subtitle
+{
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  text-decoration: underline;
+}
+
+#subtitle b
+{
+    font-size: 40px;
+}
+
+
+#quote
+{
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  top: 35%;
+  right: 25%;
+}
+
+#author
+{
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 45%;
+  right: 25%;
+}
+
+
+
+#bot-left
+{
+  position: absolute;
+  bottom: 0;
+}
+
+#bot-right
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+
+#dice-gp
+{
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+  z-index: 1;
+}

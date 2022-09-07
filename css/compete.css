@@ -1,0 +1,46 @@
+.input-dice
+{
+  position: absolute;
+  top: 25%;
+  text-align: center;
+}
+
+.input-dice input
+{
+  margin: 60px;
+  width: 40%;
+  height: 25px;
+  padding-left: 20px;
+  outline: none;
+  border:none;
+  border-radius: 30px;
+}
+
+.left-dice
+{
+  left: 20%;
+}
+
+.right-dice
+{
+  right: 20%;
+}
+
+.dice
+{
+  width: 55%;
+}
+
+
+#btn-div
+{
+  position: absolute;
+  top: 65%;
+  text-align: center;
+  width: 100%;
+}
+
+#compete-btn
+{
+  margin: 5% auto;
+}

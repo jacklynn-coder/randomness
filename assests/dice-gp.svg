@@ -1,0 +1,13 @@
+<svg width="274" height="615" viewBox="0 0 274 615" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="132" y="133.608" width="50" height="50" rx="15" transform="rotate(-33.1504 132 133.608)" fill="#195D60" fill-opacity="0.87"/>
+<rect x="102" y="236.127" width="40" height="40" rx="15" transform="rotate(-40.7824 102 236.127)" fill="#195D60" fill-opacity="0.87"/>
+<rect x="82.1931" y="317.264" width="30" height="30" rx="15" transform="rotate(-13.1078 82.1931 317.264)" fill="#195D60" fill-opacity="0.87"/>
+<rect x="189" y="42.5171" width="60" height="60" rx="15" transform="rotate(-45.1226 189 42.5171)" fill="#195D60" fill-opacity="0.87"/>
+<rect y="415" width="200" height="200" rx="45" fill="#2D6E71" fill-opacity="0.87"/>
+<circle cx="54" cy="473.5" r="20" fill="white"/>
+<circle cx="102" cy="473.5" r="20" fill="white"/>
+<circle cx="150" cy="473.5" r="20" fill="white"/>
+<circle cx="54" cy="553.5" r="20" fill="white"/>
+<path d="M122 553.5C122 564.546 113.046 573.5 102 573.5C90.9543 573.5 82 564.546 82 553.5C82 542.454 90.9543 533.5 102 533.5C113.046 533.5 122 542.454 122 553.5Z" fill="white"/>
+<circle cx="150" cy="553.5" r="20" fill="white"/>
+</svg>

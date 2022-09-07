@@ -1,0 +1,92 @@
+#home-link
+{
+  color: #195D60;
+  position: absolute;
+  top: 50px;
+  left: 10%;
+  width: 100px;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid rgba(0,0,0,0.3);
+  text-align: center;
+  border-radius: 35px;
+  margin-left: 80px;
+}
+
+#home-link:hover
+{
+  width: 150px;
+  background-color: rgba(255,255,255,0.7);;
+  transition: 0.8s width;
+}
+
+
+#dice
+{
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  width: 200px;
+  margin: 80px;
+}
+
+#roll-btn
+{
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  width: 200px;
+  padding-bottom: 32px;
+}
+
+#roll-btn:hover
+{
+  width: 250px;
+  cursor: pointer;
+  transition: 0.8s width;
+}
+
+#roll-btn:active
+{
+    color:white;
+    background-color: #195D60;
+}
+
+#info-text
+{
+  background-color: rgba(64, 81, 78,0.45);
+  position: absolute;
+  padding: 30px;
+  top: 10%;
+  right: 20%;
+  border-radius: 30px;
+  width: 50%;
+  font-size: 25px;
+font-family: 'Roboto Mono', monospace;
+  color: White;
+  line-height: 2rem;
+  font-weight: bold;
+  /* height: 30%; */
+}
+
+
+
+
+#dice {
+    width: 200px;
+}
+
+.beforeDice
+{
+    animation: rotate-animation 2s infinite;
+}
+
+.afterDice
+{
+  animation: rotate-animation 0.5s infinite;
+}
+
+@keyframes rotate-animation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
