@@ -9,7 +9,7 @@
   }
 
   function fetchJSON(number) {
-    fetch('../assests/numbers-info.json')
+    fetch('../assests/numbers-info.json',{credentials: 'same-origin'})
       .then(response => response.json())
       .then(
         data => setInfo(data["facts"][number - 1]["info"])
@@ -42,13 +42,10 @@
     }, 380);
   };
 
- 
+
 
 
   rollBtn.addEventListener("click", function () {
     rolledNum = rollDice();
     animateSingleDice(rolledNum);
   });
-
-
-
